@@ -14,6 +14,7 @@ let valorProduto = 5.35;
 let linguagens = ["css" , "python"]
 
 console.log("Meu nome é " , nome);
+console.log(nome [1]);
 console.log("Idade? " , idade);
 console.log("Casado? " , casado);
 console.log("R$ " , valorProduto);
