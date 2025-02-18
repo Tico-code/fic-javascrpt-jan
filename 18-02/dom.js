@@ -17,4 +17,9 @@ function mudar(event) {
 
     txtemail.innerHTML = email.value;
     txtemail.innerHTML = email.value;
+    // limpar os cantos
+    nome.value = "";
 }
+
+
+
