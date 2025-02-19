@@ -14,6 +14,8 @@ function somar(event) {
 
     resultado.innerHTML = resultadoSoma;
 
+    valor1.value = '';
+    valor2.value = '';
 }
 
 // função para sub
@@ -23,6 +25,9 @@ function minus(event) {
 
     let resultadoSoma = valor1.value - valor2.value;
     resultado.innerHTML = resultadoSoma;
+
+    valor1.value = '';
+    valor2.value = '';
 }
 
 function mult (event) {
@@ -30,6 +35,9 @@ function mult (event) {
 
     let resultadoSoma = valor1.value * valor2.value;
     resultado.innerHTML = resultadoSoma;
+
+    valor1.value = '';
+    valor2.value = '';
 }
 
 function divide (event) {
@@ -38,4 +46,6 @@ function divide (event) {
     let resultadoSoma = valor1.value / valor2.value;
     resultado.innerHTML = resultadoSoma;
 
+    valor1.value = '';
+    valor2.value = '';
 }
