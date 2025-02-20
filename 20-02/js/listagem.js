@@ -13,7 +13,7 @@ function carregarValoresSalvos() {
                 //criar um elemento HTML    
             const listItem = document.createElement("li");
             listItem.textContent = valor;
-            listaValores.appendChild(listItem)
+            listaValores.appendChild(listItem) // appendChild monta uma estrutura HTML
         }
     }
 }
