@@ -47,7 +47,7 @@ function displayCard() {
 
         // imprimir na tela as informações
         cardList.appendChild(cardDiv);
-        cardList.appendChild(carYear)
+        cardDiv.appendChild(carYear)
         cardDiv.appendChild(carModel);
     })
 };
