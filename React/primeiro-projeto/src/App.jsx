@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
+import Banner from "./Components/Banner";
 import "./App.css";
-
 
 
 
@@ -14,7 +14,9 @@ function App() {
 
       <h1> Seja Bem-vindo</h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas unde enim? Reiciendis adipisci, amet quo, qui nihil suscipit laboriosam assumenda ea dicta dolorem autem illum quia quae consequatur quibusdam!</p>
+    < Banner>
+    
+    </Banner>
 
      </div>
     </>
