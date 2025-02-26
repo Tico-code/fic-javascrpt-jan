@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Banner from "./Components/Banner";
+import imgCard from "./Components/imgCard";
 import "./App.css";
 
 
@@ -17,7 +18,8 @@ function App() {
       <h1>Welcome to my site</h1>
       <p> Here you can find the bestest offerts</p>
     </Banner>
-    <h1> Seja Bem-vindo</h1>
+    
+    < imgCard/>
     
      </div>
     </>
