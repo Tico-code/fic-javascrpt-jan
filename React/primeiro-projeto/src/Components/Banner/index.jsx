@@ -1,8 +1,8 @@
-export default function () {
+export default function (props) {
    
     return (
-        <div>
-            banner
+        <div className="bannerStyle">
+            {props.children}
         </div>
     )
 }

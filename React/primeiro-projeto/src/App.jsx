@@ -10,14 +10,15 @@ function App() {
   return (
     <>
      <div className="container">
-      <Header />
+      <Header title= "Logo New" />
 
-      <h1> Seja Bem-vindo</h1>
 
-    < Banner>
-    
+    <Banner>
+      <h1>Welcome to my site</h1>
+      <p> Here you can find the bestest offerts</p>
     </Banner>
-
+    <h1> Seja Bem-vindo</h1>
+    
      </div>
     </>
   )
