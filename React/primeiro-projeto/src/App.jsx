@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-
+import "./App.css";
 
 
 
@@ -9,9 +9,8 @@ function App() {
 
   return (
     <>
-     <div classname="container">
+     <div className="container">
       <Header />
-        <h1>Logo</h1>
 
       <h1> Seja Bem-vindo</h1>
 

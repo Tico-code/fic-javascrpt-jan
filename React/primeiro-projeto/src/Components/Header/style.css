@@ -1,0 +1,11 @@
+header {
+    height: 120px;
+    background: whitesmoke;
+    border-bottom: 2px solid rgb(12, 8, 17);
+}
+
+header h1 { 
+    padding: 25px;
+    text-transform: uppercase;
+    color: rgb(34, 108, 158);
+}
