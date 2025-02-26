@@ -1,6 +1,6 @@
+import ImgCard from "./Components/imgCard";
 import Header from "./Components/Header";
 import Banner from "./Components/Banner";
-import imgCard from "./Components/imgCard";
 import "./App.css";
 
 
@@ -19,8 +19,7 @@ function App() {
       <p> Here you can find the bestest offerts</p>
     </Banner>
     
-    < imgCard/>
-    
+    < ImgCard caption= "uma imagem legal"/>
      </div>
     </>
   )
