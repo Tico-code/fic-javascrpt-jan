@@ -23,7 +23,12 @@ export default function Card() {
           nome: "Fernanda",
           responsavel: "Pedro",
           valor: 990
-        }
+        },
+        {
+            nome: "Wanda",
+            responsavel: "Magneto",
+            valor: 11100
+          }
       ];
 
   return (
